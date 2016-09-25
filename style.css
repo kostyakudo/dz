@@ -1,0 +1,207 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+.warper {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    padding-top: 10%;
+    padding-left: 10%;
+    display: flex;
+}
+
+li {
+    position: relative;
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: thistle;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 5px -3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.content {
+    position: absolute;
+    top: 200%;
+    /*    left: 100%;*/
+    display: flex;
+    display: none;
+}
+
+.javascript .content {
+    top: 200%;
+    left: 100%;
+}
+
+.java {
+    box-shadow: 5px -3px 10px 0px rgba(50, 50, 50, 0.75);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    background-color: darkviolet;
+    color: white;
+}
+
+
+}
+h3 {
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+ul li:hover .content {
+    display: flex;
+}
+a:hover {
+    color: thistle;
+    transition: 0.5s;
+    background-color: white;
+}
